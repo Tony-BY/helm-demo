@@ -63,7 +63,16 @@ resources:
     memory: 100Mi
   requests:
     cpu: 50m
-    memory: 50Mi  
+    memory: 50Mi
+
+pv:
+  storage: 1Gi
+  nfs:
+    path: /mnt/IT-Academy/nfs-data/sa2-21-22/a_skuratovich
+    server: 192.168.37.105
+pvc:
+  storage: 1Gi    
+    
 
 autoscaling:
   enabled: false

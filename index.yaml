@@ -3,7 +3,17 @@ entries:
   first-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-29T02:35:12.221148384+03:00"
+    created: "2022-08-29T03:00:37.773168121+03:00"
+    description: A Helm chart for Kubernetes
+    digest: c31c38363da14f9f697c9ea3ba25b24fbb35dcc3dd100acad281f3f398e992cd
+    name: first-app
+    type: application
+    urls:
+    - https://tony-by.github.io/helm-demo/first-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-29T03:00:37.76496262+03:00"
     description: A Helm chart for Kubernetes
     digest: b0b4249a00d64f7327de03c1a07cd9b3eff458b1aa31415c68764470b0424167
     name: first-app
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://tony-by.github.io/helm-demo/first-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-29T02:35:12.213002484+03:00"
+generated: "2022-08-29T03:00:37.75620702+03:00"
